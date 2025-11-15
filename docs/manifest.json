@@ -1,0 +1,214 @@
+{
+  "repo_name": "hft-backtester",
+  "generator_version": "1.0.0",
+  "generation_started": "2025-11-15T20:11:08.746324",
+  "files": {
+    ".gitignore": {
+      "size": 46,
+      "lines": 6,
+      "docs_file": ".gitignore_docs.md",
+      "keywords_file": ".gitignore_kw.md"
+    },
+    "CMakeLists.txt": {
+      "size": 4164,
+      "lines": 150,
+      "docs_file": "CMakeLists.txt_docs.md",
+      "keywords_file": "CMakeLists.txt_kw.md"
+    },
+    "README.md": {
+      "size": 314,
+      "lines": 10,
+      "docs_file": "README.md_docs.md",
+      "keywords_file": "README.md_kw.md"
+    },
+    "generate_repo_book.py": {
+      "size": 42864,
+      "lines": 1218,
+      "docs_file": "generate_repo_book.py_docs.md",
+      "keywords_file": "generate_repo_book.py_kw.md"
+    },
+    "include/async_logger.h": {
+      "size": 1639,
+      "lines": 65,
+      "docs_file": "include/async_logger.h_docs.md",
+      "keywords_file": "include/async_logger.h_kw.md"
+    },
+    "include/backtester.h": {
+      "size": 1547,
+      "lines": 56,
+      "docs_file": "include/backtester.h_docs.md",
+      "keywords_file": "include/backtester.h_kw.md"
+    },
+    "include/book/limit.h": {
+      "size": 1249,
+      "lines": 58,
+      "docs_file": "include/book/limit.h_docs.md",
+      "keywords_file": "include/book/limit.h_kw.md"
+    },
+    "include/book/limit_pool.h": {
+      "size": 3350,
+      "lines": 134,
+      "docs_file": "include/book/limit_pool.h_docs.md",
+      "keywords_file": "include/book/limit_pool.h_kw.md"
+    },
+    "include/book/order.h": {
+      "size": 681,
+      "lines": 30,
+      "docs_file": "include/book/order.h_docs.md",
+      "keywords_file": "include/book/order.h_kw.md"
+    },
+    "include/book/order_pool.h": {
+      "size": 1173,
+      "lines": 60,
+      "docs_file": "include/book/order_pool.h_docs.md",
+      "keywords_file": "include/book/order_pool.h_kw.md"
+    },
+    "include/book/orderbook.h": {
+      "size": 12655,
+      "lines": 449,
+      "docs_file": "include/book/orderbook.h_docs.md",
+      "keywords_file": "include/book/orderbook.h_kw.md"
+    },
+    "include/book/ring.h": {
+      "size": 2573,
+      "lines": 102,
+      "docs_file": "include/book/ring.h_docs.md",
+      "keywords_file": "include/book/ring.h_kw.md"
+    },
+    "include/concurrent_backtest.h": {
+      "size": 1399,
+      "lines": 46,
+      "docs_file": "include/concurrent_backtest.h_docs.md",
+      "keywords_file": "include/concurrent_backtest.h_kw.md"
+    },
+    "include/connection_pool.h": {
+      "size": 1277,
+      "lines": 47,
+      "docs_file": "include/connection_pool.h_docs.md",
+      "keywords_file": "include/connection_pool.h_kw.md"
+    },
+    "include/db_connection.h": {
+      "size": 1330,
+      "lines": 49,
+      "docs_file": "include/db_connection.h_docs.md",
+      "keywords_file": "include/db_connection.h_kw.md"
+    },
+    "include/lock_free_queue.h": {
+      "size": 3587,
+      "lines": 131,
+      "docs_file": "include/lock_free_queue.h_docs.md",
+      "keywords_file": "include/lock_free_queue.h_kw.md"
+    },
+    "include/market_data_ingestor.h": {
+      "size": 1342,
+      "lines": 48,
+      "docs_file": "include/market_data_ingestor.h_docs.md",
+      "keywords_file": "include/market_data_ingestor.h_kw.md"
+    },
+    "include/message.h": {
+      "size": 369,
+      "lines": 19,
+      "docs_file": "include/message.h_docs.md",
+      "keywords_file": "include/message.h_kw.md"
+    },
+    "include/slab_map.h": {
+      "size": 2718,
+      "lines": 113,
+      "docs_file": "include/slab_map.h_docs.md",
+      "keywords_file": "include/slab_map.h_kw.md"
+    },
+    "include/strategy.h": {
+      "size": 2311,
+      "lines": 92,
+      "docs_file": "include/strategy.h_docs.md",
+      "keywords_file": "include/strategy.h_kw.md"
+    },
+    "src/async_logger.cpp": {
+      "size": 5424,
+      "lines": 181,
+      "docs_file": "src/async_logger.cpp_docs.md",
+      "keywords_file": "src/async_logger.cpp_kw.md"
+    },
+    "src/backtester.cpp": {
+      "size": 5121,
+      "lines": 173,
+      "docs_file": "src/backtester.cpp_docs.md",
+      "keywords_file": "src/backtester.cpp_kw.md"
+    },
+    "src/benchmark/main.cpp": {
+      "size": 998,
+      "lines": 37,
+      "docs_file": "src/benchmark/main.cpp_docs.md",
+      "keywords_file": "src/benchmark/main.cpp_kw.md"
+    },
+    "src/concurrent_backtest.cpp": {
+      "size": 3571,
+      "lines": 110,
+      "docs_file": "src/concurrent_backtest.cpp_docs.md",
+      "keywords_file": "src/concurrent_backtest.cpp_kw.md"
+    },
+    "src/connection_pool.cpp": {
+      "size": 3170,
+      "lines": 123,
+      "docs_file": "src/connection_pool.cpp_docs.md",
+      "keywords_file": "src/connection_pool.cpp_kw.md"
+    },
+    "src/db_connection.cpp": {
+      "size": 2859,
+      "lines": 109,
+      "docs_file": "src/db_connection.cpp_docs.md",
+      "keywords_file": "src/db_connection.cpp_kw.md"
+    },
+    "src/main.cpp": {
+      "size": 5364,
+      "lines": 144,
+      "docs_file": "src/main.cpp_docs.md",
+      "keywords_file": "src/main.cpp_kw.md"
+    },
+    "src/market_data_ingestor.cpp": {
+      "size": 4588,
+      "lines": 145,
+      "docs_file": "src/market_data_ingestor.cpp_docs.md",
+      "keywords_file": "src/market_data_ingestor.cpp_kw.md"
+    },
+    "src/market_data_injestor.cpp": {
+      "size": 4587,
+      "lines": 144,
+      "docs_file": "src/market_data_injestor.cpp_docs.md",
+      "keywords_file": "src/market_data_injestor.cpp_kw.md"
+    },
+    "src/parser.cpp": {
+      "size": 4510,
+      "lines": 183,
+      "docs_file": "src/parser.cpp_docs.md",
+      "keywords_file": "src/parser.cpp_kw.md"
+    },
+    "src/strategies/imbalance_strat.cpp": {
+      "size": 3805,
+      "lines": 134,
+      "docs_file": "src/strategies/imbalance_strat.cpp_docs.md",
+      "keywords_file": "src/strategies/imbalance_strat.cpp_kw.md"
+    },
+    "src/strategies/linear_model_strat.cpp": {
+      "size": 8129,
+      "lines": 257,
+      "docs_file": "src/strategies/linear_model_strat.cpp_docs.md",
+      "keywords_file": "src/strategies/linear_model_strat.cpp_kw.md"
+    }
+  },
+  "checksums": {},
+  "git_info": {
+    "commit_sha": "58a4480a6fb5831609ae991647302857a8e46734",
+    "commit_date": "2025-07-12T11:34:43-04:00",
+    "author_name": "DJ824",
+    "author_email": "106926891+DJ824@users.noreply.github.com"
+  },
+  "file_count": 32,
+  "docs_count": 87,
+  "bytes_written": 824557,
+  "total_keywords": 1729,
+  "generation_completed": "2025-11-15T20:11:08.887830",
+  "errors": [],
+  "binary_files": [],
+  "skipped_files": []
+}
